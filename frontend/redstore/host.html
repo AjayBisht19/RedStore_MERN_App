@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="host.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&display=swap" rel="stylesheet">  
+    <title>RedStore</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container flex">
+            <div class="logo">
+                <h1><em>RedStore.</em></h1>
+            </div>
+            <nav>
+                <ul class="tabs">
+                    <li><a href="#"> Home</a> </li>
+                    <li><a href="./products.html"> Products</a> </li>
+                    <li><a href="#create"> Create account</a></li>
+                    <li><a href="#"> Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="showcase">
+        <div class="container grid">
+            <div class="showcase-content">
+                <h1>Welcome to RedStore</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit asperiores ut nulla ducimus? Rerum beatae iusto commodi doloremque sit neque facilis corporis culpa, porro debitis! Reiciendis doloremque rerum voluptas neque.</p>
+                <br><a href="#" class="btn btn-outline">Read more</a>
+            </div>
+            <div class="showcase-form card" id="create">
+                <h2>Register</h2>
+                <form>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+             
+                    <div class="form-control">
+                        <input type="email" name="name" placeholder="Email" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="tel" name="name" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Mobile Number" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="password" name="name" placeholder="Password" required>
+                    </div>
+                    <a href="#" class="btn">Submit</a href="#">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <h1> Featured Products</h1>
+        <div class="container grid-3">
+            <div class="products">
+                <img src="./images/category-1.jpg" alt="">
+            </div>
+            <div class="products">
+                <img src="./images/category-2.jpg" alt="">
+            </div>
+            <div class="products">
+                <img src="./images/category-3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
