@@ -21,7 +21,8 @@ app.use((err,req,res,next)=>{
 })
 
 
-const uri='mongodb+srv://redadmin:redadmin111@steve.zoybp.mongodb.net/Redstore?retryWrites=true&w=majority'
+// const uri='mongodb+srv://redadmin:redadmin111@steve.zoybp.mongodb.net/Redstore?retryWrites=true&w=majority'
+const uri='mongodb+srv://ajay:ajay123@cluster0.3okeg.mongodb.net/Redstore?retryWrites=true&w=majority'
 
 const port = process.env.port || 5000;
 

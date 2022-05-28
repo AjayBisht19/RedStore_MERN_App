@@ -23,7 +23,7 @@ export default function Homescreen() {
     <br/><br/><br/>
     <div className="heading"><h1>Products</h1></div>
     <br/><br/>
-    <div className=" flex-card">
+    <div className=" flex-card mx-5">
     {products.map((product)=>(
         <Product key={product._id} product={product}></Product>
     ))}

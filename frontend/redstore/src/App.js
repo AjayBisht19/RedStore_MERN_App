@@ -25,7 +25,7 @@ function App() {
     <div className="navbar">
         <div className="container flex">
             <div className="logo">
-                <h1><em>RedStore.</em></h1>
+                <h1>RedStore.</h1>
             </div>
             <nav>
                 <ul className="tabs">

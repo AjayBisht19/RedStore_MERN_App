@@ -36,6 +36,11 @@ ul{
   color: white;
   cursor: pointer;
 }
+
+.mx-5{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .tabs li{
   padding: 10px 20px;
 }
